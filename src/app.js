@@ -13,7 +13,7 @@ app.use(express.urlencoded({extended:true,limit:"16kb"}))
 app.use(express.static("public"))
 app.use(cookieParser())
 
-export default app
+export  {app}
 
 
 //use are used to set middlerware
